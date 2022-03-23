@@ -1,0 +1,30 @@
+{% extends 'web_site/layout.html'%}
+{% load static %}
+
+{% block content %}
+
+<div class="feature">
+    <h1>Фотогалерея</h1>
+    <tr>
+        <td class="leftcol"><img src="{% static 'web_site/img/ch.jpg' %}" class="FORAGE" id='image'></td>
+        <td class="textone">Наш рабочий выполняет работу на объекте</td>
+    </tr>
+    <p>
+        <tr>
+            <td class="leftcol"><img src="{% static 'web_site/img/kamaz.jpg' %}" class="FORAGE" id='image'></td>
+            <td class="textone">Наша техника на объекте</td>
+        </tr>    
+    </p>
+    <p>
+        <tr>
+            <td class="leftcol"><img src="{% static 'web_site/img/shi.jpg' %}" class="FORAGE" id='image'></td>
+            <td class="textone">Электрощитки на банке ВТБ</td>
+        </tr>    
+    </p>         
+</div>
+
+{% endblock %}
+
+<script src="dist/js/lightbox-plus-jquery.js"></script>
+
+{% block title %}Фотогалерея{% endblock %}

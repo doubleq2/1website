@@ -1,0 +1,103 @@
+body {
+    background:#A9A9A9
+}
+
+aside {
+    background: #C0C0C0;
+    float: left;
+    width: 20%;
+    padding: 1.5%;
+    color:black;
+    position: relative;
+    height: 100vh;
+    border-right: 2px solid #d1cccc;
+}
+
+aside img {
+    width: 105px;
+    float: left;
+}
+
+div img {
+    width: 350px;
+    display:inline-block;
+    line-height: 100%;
+    padding: 14px;
+}
+
+
+aside .logo {
+    font-size: 70px;
+    margin-left: 30px;
+}
+
+aside h3 {
+    float: left;
+    position: relative;
+    top: +5px;
+}
+
+aside ul li {
+    color:black;
+}
+
+aside ul li:hover, aside ul a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+aside a {
+    text-decoration: none;
+}
+
+main .feature {
+    float: right;
+    text-align: left;
+    text-align: left;
+    width: 79%
+}
+
+main .feature p {margin-left: 10px auto}
+
+div .text-start1, .text-start3 , .text-start2, .text4 {
+  margin-left: 10px;
+  vertical-align: text-top
+}  
+
+div .textone {
+    font-style: italic;
+}
+
+div .text-start-50 {
+    font-style: italic;
+}
+
+div tr .textone {
+    font-style: italic;
+}
+
+div .text-start12, .text-start10, .text-start, .text-start20 {
+    width: 97%;
+}
+
+
+div .animate1 {
+    width: 60%;
+    height: 40%;
+
+}
+
+div .animate1, .FORAGE {
+    -moz-transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+}
+    
+div .animate1:hover, .FORAGE:hover{
+    -moz-transform: scale(1.5);
+    -webkit-transform: scale(1.5); 
+    -o-transform: scale(1.5); 
+    -ms-transform: scale(1.5);
+    transform: scale(1.5);
+}
